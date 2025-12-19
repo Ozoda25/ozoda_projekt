@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiyim Do‘koni | Asosiy Sahifa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>KiyimShop <small>— uslub sizdan boshlanadi</small></h1>
+    <nav>
+      <ul>
+        <li><a href="kiyimdokoni.html">Bosh sahifa</a></li>
+        <li><a href="haqida.html">Biz haqimizda</a></li>
+        <li><a href="mahsulotlar.html">Mahsulotlar</a></li>
+        <li><a href="aloqa.html">Aloqa</a></li>
+      <li><a href="yangiliklar.html">Yangiliklar</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <input type="number" id="soni" placeholder="Soni">
+<button onclick="hisobla(120000)">Hisobla</button>
+<p id="natija"></p>
+<select id="mavzu">
+  <option value="html">HTML</option>
+  <option value="css">CSS</option>
+  <option value="js">JavaScript</option>
+</select>
+
+
+ <!-- JADVAL BO‘LIMI -->
+  <section id="mahsulotlar">
+    <h2>Mahsulotlar narxlari jadvali</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Mahsulot nomi</th>
+          <th>Turi</th>
+          <th>Narxi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sport futbolka</td>
+          <td>Erkaklar uchun</td>
+          <td>70,000 so‘m</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ko‘ylak</td>
+          <td>Ayollar uchun</td>
+          <td>120,000 so‘m</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Kurtka</td>
+          <td>Universal</td>
+          <td>250,000 so‘m</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- GIPERMUROJAAT VA TASVIRLAR -->
+  <section id="galereya">
+    <h2>Mahsulotlar galereyasi</h2>
+    <p>Eng so‘nggi kolleksiyamizni ko‘rib chiqing:</p>
+
+    <div class="gallery">
+      <a href="Koylak.jpg" target="_blank">
+        <img src="Havola ustiga bosing" alt="Kiyim 1">
+      </a>
+      <a href="https://via.placeholder.com/600" target="_blank">
+        <img src="https://via.placeholder.com/200" alt="Kiyim 2">
+      </a>
+      <a href="https://via.placeholder.com/600" target="_blank">
+        <img src="https://via.placeholder.com/200" alt="Kiyim 3">
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 KiyimShop | <a href="#bosh">Yuqoriga qaytish</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

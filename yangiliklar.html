@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yangiliklar | KiyimShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header id="bosh">
+  <h1>KiyimShop <small>— yangiliklar va aloqa</small></h1>
+  <nav>
+    <ul>
+      <li><a href="kiyimdokoni.html">Bosh sahifa</a></li>
+      <li><a href="haqida.html">Biz haqimizda</a></li>
+      <li><a href="mahsulotlar.html">Mahsulotlar</a></li>
+      <li><a href="aloqa.html">Aloqa</a></li>
+      <li><a href="yangiliklar.html">Yangiliklar</a></li>
+    </ul>
+  </nav>
+</header>
+<button class="order-btn" onclick="buyurtmaBer(250000)">Buyurtma berish</button>
+<button id="buyurtmaBtn">Buyurtma berish</button>
+<select id="mavzu">
+  <option value="html">HTML</option>
+  <option value="css">CSS</option>
+  <option value="js">JavaScript</option>
+</select>
+
+
+<section class="products-section">
+  <h2 class="title">Bizning Kiyimlar</h2>
+
+  <div class="products-grid">
+
+    <!-- MAHSULOT 1 -->
+    <div class="product-card">
+      <img src="Sport shimlar.jpg" alt="Kiyim">
+      <div class="product-body">
+        <h3>Sport Kiyim</h3>
+        <p class="price">Narxi: <span>250 000 so‘m</span></p>
+        <p class="order-text">Buyurtma berish uchun pastdagi tugmani bosing</p>
+        <button class="order-btn">Buyurtma berish</button>
+      </div>
+    </div>
+
+    <!-- MAHSULOT 2 -->
+    <div class="product-card">
+      <img src="Koylak.jpg" alt="Kiyim">
+      <div class="product-body">
+        <h3>Klassik Ko‘ylak</h3>
+        <p class="price">Narxi: <span>320 000 so‘m</span></p>
+        <p class="order-text">Buyurtma berish uchun pastdagi tugmani bosing</p>
+        <button class="order-btn">Buyurtma berish</button>
+      </div>
+    </div>
+
+    <!-- MAHSULOT 3 -->
+    <div class="product-card">
+      <img src="ayollarkoylagi.jpg" alt="Kiyim">
+      <div class="product-body">
+        <h3>Ayollar Libosi</h3>
+        <p class="price">Narxi: <span>280 000 so‘m</span></p>
+        <p class="order-text">Buyurtma berish uchun pastdagi tugmani bosing</p>
+        <button class="order-btn">Buyurtma berish</button>
+      </div>
+    </div>
+
+    <!-- MAHSULOT 4 -->
+    <div class="product-card">
+      <img src="Futbolka.jpg" alt="Kiyim">
+      <div class="product-body">
+        <h3>Yozgi Futbolka</h3>
+        <p class="price">Narxi: <span>150 000 so‘m</span></p>
+        <p class="order-text">Buyurtma berish uchun pastdagi tugmani bosing</p>
+        <button class="order-btn">Buyurtma berish</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section>
+  <h2>Yangiliklar va murojaat formasi</h2>
+  <p>
+    Ushbu sahifa <strong>formani yaratish</strong> va
+    <em>input, textarea, select</em> elementlaridan foydalanish
+    mavzusini o‘rganish uchun mo‘ljallangan.
+  </p>
+</section>
+
+<section>
+  <h2>📝 Foydalanuvchi ma’lumotlari</h2>
+
+  <form action="#" method="post">
+
+    <label for="ism">Ismingiz</label>
+    <input type="text" id="ism" name="ism" placeholder="Ismingizni kiriting" required>
+
+    <label for="email">Email manzilingiz</label>
+    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+    <label for="yosh">Yoshingiz</label>
+    <input type="number" id="yosh" name="yosh" placeholder="Masalan: 20">
+
+    <label for="mavzu">Qaysi mavzu qiziqtiradi?</label>
+    <select id="mavzu" name="mavzu">
+      <option value="">-- Tanlang --</option>
+      <option value="html">HTML asoslari</option>
+      <option value="css">CSS dizayn</option>
+      <option value="form">Formalar bilan ishlash</option>
+      <option value="js">JavaScript</option>
+    </select>
+
+    <label for="xabar">Fikringiz yoki savolingiz</label>
+    <textarea
+      id="xabar"
+      name="xabar"
+      rows="5"
+      placeholder="Bu yerga fikringizni yozing..."
+    ></textarea>
+
+    <button type="submit">Yuborish</button>
+
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 KiyimShop | <a href="#bosh">Yuqoriga qaytish</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
